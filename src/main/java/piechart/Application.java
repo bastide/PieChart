@@ -22,9 +22,4 @@ public class Application {
 		frame.pack();
 		frame.setVisible(true);
 	}
-
-	/**Main method*/
-	public static void main(String[] args) {
-		new Application();
-	}
 }
