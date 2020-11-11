@@ -29,7 +29,7 @@ public class PercentagePanel extends JPanel {
 		JLabel jLabel1 = new JLabel();
 		jLabel1.setText("Percentage:");
 		myTextView.setEnabled(false);
-		myPieViewAndController.setPreferredSize(new Dimension(90, 90));
+		myPieViewAndController.setPreferredSize(new Dimension(250, 100));
 		northPanel.add(jLabel1, null);
 		northPanel.add(myTextView, null);
 		add(northPanel, BorderLayout.NORTH);
