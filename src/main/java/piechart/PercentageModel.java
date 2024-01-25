@@ -6,7 +6,7 @@ import java.util.Set;
  * This class is a MVC "Model" of a percentage (a value such as 0 <= x <= 1)
  **/
 public class PercentageModel extends Percentage {
-	private Set<PercentageView> myViews = new java.util.HashSet<PercentageView> ();
+	private Set<PercentageView> myViews = new java.util.HashSet<> ();
 
 	/**
 	 * Create a Percentage with an initial value
